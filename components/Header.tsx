@@ -30,13 +30,16 @@ const Header = () => {
             "
         />
 
-        <Image
-          src="https://links.papareact.com/c2cdd5"
+        {/* <Image
+          src="https://pbs.twimg.com/profile_images/1088311120295645184/6sGzOYtb_400x400.jpg"
           alt="Taskify Logo"
           width={300}
           height={100}
           className="w-44 md:w-56 pb:10 md:pb-0 object-contain"
-        />
+        /> */}
+        <h3 className="font-bold text-3xl">
+          Taskify<span className="font-bold text-teal-500 text-4xl">.</span>
+        </h3>
 
         <div className="flex items-center space-x-5 flex-1 justify-end w-full">
           {/* Search */}

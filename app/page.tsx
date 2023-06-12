@@ -7,7 +7,6 @@ export default function Home() {
       <Header />
 
       <Board />
-      <h1>Hello Taskify</h1>
     </main>
   );
 }
